@@ -1,0 +1,410 @@
+2021-12-17 14:30:08,310 - root - INFO - BotServer started!
+2021-12-17 14:30:08,312 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 14:30:13,336 - root - INFO - Command START
+2021-12-17 14:30:22,778 - root - INFO - Command RED State
+2021-12-17 14:30:32,636 - root - INFO - Command RED State
+2021-12-17 14:32:42,453 - root - INFO - BotServer started!
+2021-12-17 14:32:42,455 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 14:32:45,493 - root - INFO - Command RED State
+2021-12-17 14:39:03,394 - root - INFO - BotServer started!
+2021-12-17 14:39:03,396 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 14:39:10,677 - root - INFO - Command RED State
+2021-12-17 14:42:58,402 - root - INFO - BotServer started!
+2021-12-17 14:42:58,404 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 14:43:04,744 - root - INFO - Command RED State
+2021-12-17 14:45:32,868 - root - INFO - BotServer started!
+2021-12-17 14:45:32,870 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 14:45:42,334 - root - INFO - Command RED State
+2021-12-17 14:46:07,115 - root - INFO - BotServer started!
+2021-12-17 14:46:07,117 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 14:46:10,220 - root - INFO - Command RED State
+2021-12-17 14:57:27,362 - root - INFO - BotServer started!
+2021-12-17 14:57:27,364 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 14:57:33,175 - root - INFO - Command RED State
+2021-12-17 15:00:26,857 - root - INFO - BotServer started!
+2021-12-17 15:00:26,859 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:00:33,353 - root - INFO - Command RED State
+2021-12-17 15:00:50,691 - root - INFO - Command RED State
+2021-12-17 15:01:01,299 - root - INFO - Command RED State
+2021-12-17 15:05:04,213 - root - INFO - BotServer started!
+2021-12-17 15:05:04,214 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:05:29,010 - root - INFO - Command RED State
+2021-12-17 15:07:17,947 - root - INFO - Command RED State
+2021-12-17 15:07:56,888 - root - INFO - Command RED State
+2021-12-17 15:08:12,437 - root - INFO - BotServer started!
+2021-12-17 15:08:12,439 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:08:21,811 - root - INFO - Command RED State
+2021-12-17 15:09:11,162 - root - INFO - BotServer started!
+2021-12-17 15:09:11,165 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:09:15,682 - root - INFO - Command RED State
+2021-12-17 15:10:18,220 - root - INFO - BotServer started!
+2021-12-17 15:10:18,221 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:10:23,606 - root - INFO - Command RED State
+2021-12-17 15:12:21,313 - root - INFO - BotServer started!
+2021-12-17 15:12:21,315 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:12:29,509 - root - INFO - Command RED State
+2021-12-17 15:13:16,124 - root - INFO - Command RED State
+2021-12-17 15:13:58,396 - root - INFO - BotServer started!
+2021-12-17 15:13:58,398 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:14:04,988 - root - INFO - Command RED State
+2021-12-17 15:17:09,804 - root - INFO - BotServer started!
+2021-12-17 15:17:09,806 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:17:16,831 - root - INFO - Command RED State
+2021-12-17 15:22:36,039 - root - INFO - BotServer started!
+2021-12-17 15:22:36,044 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:22:36,364 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-12-17 15:22:36,365 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+    self._post(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-12-17 15:22:40,416 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-12-17 15:22:40,420 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+    self._post(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-12-17 15:22:41,464 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-12-17 15:22:41,467 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+    self._post(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-12-17 15:22:46,123 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-12-17 15:22:46,129 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 2861, in get_updates
+    self._post(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-12-17 15:22:54,462 - root - INFO - BotServer started!
+2021-12-17 15:22:54,464 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:23:01,402 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\Corso 9\Desktop\ITS2\Microcontrollori-Raspberry\ProgettoPotenziamento_SistemaBase\BotLedState\mainBot.py", line 61, in getStatus
+    context.bot.send_message(chat_id=update.effective_chat.id,text=statusLed)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\extbot.py", line 199, in _message
+    result = super()._message(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\bot.py", line 295, in _post
+    return self.request.post(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\utils\request.py", line 364, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Response is not JSON serializable
+2021-12-17 15:24:04,388 - root - INFO - BotServer started!
+2021-12-17 15:24:04,390 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:24:51,285 - root - INFO - BotServer started!
+2021-12-17 15:24:51,288 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:25:01,020 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1276, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1322, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1271, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1031, in _send_output
+    self.send(msg)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 969, in send
+    self.connect()
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001D94C314550>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='46.105.235.75', port=3000): Max retries exceeded with url: /api/get/98:54:1b:2a:1c:91 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D94C314550>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\Corso 9\Desktop\ITS2\Microcontrollori-Raspberry\ProgettoPotenziamento_SistemaBase\BotLedState\mainBot.py", line 60, in getStatus
+    statusLed=requests.get(f"http://46.105.235.75:3000/api/get/{get_mac_address()}")
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='46.105.235.75', port=3000): Max retries exceeded with url: /api/get/98:54:1b:2a:1c:91 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D94C314550>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2021-12-17 15:26:11,113 - root - INFO - BotServer started!
+2021-12-17 15:26:11,115 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:26:14,260 - root - INFO - Command Get Led State
+2021-12-17 15:27:10,557 - root - INFO - BotServer started!
+2021-12-17 15:27:10,559 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:27:13,082 - root - INFO - Command Get Led State
+2021-12-17 15:33:26,451 - root - INFO - BotServer started!
+2021-12-17 15:33:26,453 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:33:30,044 - root - INFO - Command Get Led State
+2021-12-17 15:33:30,195 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\Corso 9\Desktop\ITS2\Microcontrollori-Raspberry\ProgettoPotenziamento_SistemaBase\BotLedState\mainBot.py", line 65, in getStatus
+    context.bot.send_message(chat_id=update.effective_chat.id,text=f"MAC:{statusLed.text['mac']}\n{emoji.emojize(':red_circle:', use_aliases=True) if statusLed.text['mac']==True else emoji.emojize(':black_circle:', use_aliases=True)}RED\n{emoji.emojize(':green_circle:', use_aliases=True) if statusLed.text['mac']==True else emoji.emojize(':black_circle:', use_aliases=True)}GREEN\n{emoji.emojize(':blue_circle:', use_aliases=True) if statusLed.text['mac']==True else emoji.emojize(':black_circle:', use_aliases=True)}BLUE")
+TypeError: string indices must be integers
+2021-12-17 15:34:16,778 - root - INFO - BotServer started!
+2021-12-17 15:34:16,780 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:34:19,237 - root - INFO - Command Get Led State
+2021-12-17 15:34:19,337 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\Corso 9\Desktop\ITS2\Microcontrollori-Raspberry\ProgettoPotenziamento_SistemaBase\BotLedState\mainBot.py", line 65, in getStatus
+    context.bot.send_message(chat_id=update.effective_chat.id,text=f"MAC:{statusLed.text['mac']}\n{emoji.emojize(':red_circle:', use_aliases=True) if statusLed.text['red']==True else emoji.emojize(':black_circle:', use_aliases=True)}RED\n{emoji.emojize(':green_circle:', use_aliases=True) if statusLed.text['green']==True else emoji.emojize(':black_circle:', use_aliases=True)}GREEN\n{emoji.emojize(':blue_circle:', use_aliases=True) if statusLed.text['blue']==True else emoji.emojize(':black_circle:', use_aliases=True)}BLUE")
+TypeError: string indices must be integers
+2021-12-17 15:34:55,018 - root - INFO - BotServer started!
+2021-12-17 15:34:55,020 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:34:58,545 - root - INFO - Command Get Led State
+2021-12-17 15:34:58,641 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\Corso 9\Desktop\ITS2\Microcontrollori-Raspberry\ProgettoPotenziamento_SistemaBase\BotLedState\mainBot.py", line 64, in getStatus
+    print(statusLed.text['mac'])
+TypeError: string indices must be integers
+2021-12-17 15:35:19,934 - root - INFO - BotServer started!
+2021-12-17 15:35:19,936 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:35:24,871 - root - INFO - Command Get Led State
+2021-12-17 15:35:24,967 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\Corso 9\Desktop\ITS2\Microcontrollori-Raspberry\ProgettoPotenziamento_SistemaBase\BotLedState\mainBot.py", line 64, in getStatus
+    print(statusLed['mac'])
+TypeError: 'Response' object is not subscriptable
+2021-12-17 15:35:57,291 - root - INFO - BotServer started!
+2021-12-17 15:35:57,292 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:36:00,840 - root - INFO - Command Get Led State
+2021-12-17 15:36:45,240 - root - INFO - BotServer started!
+2021-12-17 15:36:45,241 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:36:47,759 - root - INFO - Command Get Led State
+2021-12-17 15:36:47,947 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\Corso 9\Desktop\ITS2\Microcontrollori-Raspberry\ProgettoPotenziamento_SistemaBase\BotLedState\mainBot.py", line 64, in getStatus
+    print(json.dumps(statusLed))
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Response is not JSON serializable
+2021-12-17 15:37:02,538 - root - INFO - BotServer started!
+2021-12-17 15:37:02,539 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:37:04,711 - root - INFO - Command Get Led State
+2021-12-17 15:37:39,235 - root - INFO - BotServer started!
+2021-12-17 15:37:39,237 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:37:42,827 - root - INFO - Command Get Led State
+2021-12-17 15:37:42,969 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\Corso 9\Desktop\ITS2\Microcontrollori-Raspberry\ProgettoPotenziamento_SistemaBase\BotLedState\mainBot.py", line 64, in getStatus
+    print(json.dumps(statusLed.text)['mac'])
+TypeError: string indices must be integers
+2021-12-17 15:38:01,179 - root - INFO - BotServer started!
+2021-12-17 15:38:01,181 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:38:06,150 - root - INFO - Command Get Led State
+2021-12-17 15:38:44,082 - root - INFO - BotServer started!
+2021-12-17 15:38:44,083 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:38:45,802 - root - INFO - Command Get Led State
+2021-12-17 15:38:45,899 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "c:\Users\Corso 9\Desktop\ITS2\Microcontrollori-Raspberry\ProgettoPotenziamento_SistemaBase\BotLedState\mainBot.py", line 64, in getStatus
+    print(dict(statusLed.text))
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+2021-12-17 15:39:04,810 - root - INFO - BotServer started!
+2021-12-17 15:39:04,812 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:39:06,894 - root - INFO - Command Get Led State
+2021-12-17 15:39:53,196 - root - INFO - BotServer started!
+2021-12-17 15:39:53,197 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:39:55,193 - root - INFO - Command Get Led State
+2021-12-17 15:41:30,587 - root - INFO - BotServer started!
+2021-12-17 15:41:30,589 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:41:30,797 - root - INFO - Command Get Led State
+2021-12-17 15:42:33,977 - root - INFO - BotServer started!
+2021-12-17 15:42:33,978 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:42:37,725 - root - INFO - Command Get Led State
+2021-12-17 15:43:38,723 - root - INFO - BotServer started!
+2021-12-17 15:43:38,725 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:43:42,070 - root - INFO - Command Get Led State
+2021-12-17 15:43:59,706 - root - INFO - BotServer started!
+2021-12-17 15:43:59,708 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:43:59,903 - root - INFO - Command Get Led State
+2021-12-17 15:44:53,701 - root - INFO - BotServer started!
+2021-12-17 15:44:53,703 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:44:55,262 - root - INFO - Command Get Led State
+2021-12-17 15:46:03,094 - root - INFO - BotServer started!
+2021-12-17 15:46:03,096 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:46:06,555 - root - INFO - Command Get Led State
+2021-12-17 15:48:56,634 - root - INFO - BotServer started!
+2021-12-17 15:48:56,636 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:49:02,276 - root - INFO - Command Get Led State
+2021-12-17 15:49:38,487 - root - INFO - BotServer started!
+2021-12-17 15:49:38,489 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:49:39,744 - root - INFO - Command Get Led State
+2021-12-17 15:51:46,248 - root - INFO - Command Get Led State
+2021-12-17 15:51:54,934 - root - INFO - Command Change Led State
+2021-12-17 15:52:07,401 - root - INFO - Command Change Led State
+2021-12-17 15:52:10,131 - root - INFO - Command Get Led State
+2021-12-17 15:53:01,589 - root - INFO - BotServer started!
+2021-12-17 15:53:01,592 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:53:06,874 - root - INFO - Command Get Led State
+2021-12-17 15:53:13,411 - root - INFO - Command Change Led State
+2021-12-17 15:53:15,974 - root - INFO - Command Get Led State
+2021-12-17 15:53:28,540 - root - INFO - Command Change Led State
+2021-12-17 15:53:31,966 - root - INFO - Command Get Led State
+2021-12-17 15:55:22,352 - root - INFO - BotServer started!
+2021-12-17 15:55:22,354 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:55:29,161 - root - INFO - Command Change Led State
+2021-12-17 15:55:31,967 - root - INFO - Command Get Led State
+2021-12-17 15:55:39,434 - root - INFO - Command Change Led State
+2021-12-17 15:55:42,153 - root - INFO - Command Get Led State
+2021-12-17 15:56:36,254 - root - INFO - BotServer started!
+2021-12-17 15:56:36,256 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:56:44,120 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\Corso 9\AppData\Local\Programs\Python\Python310\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+TypeError: 'list' object is not callable
+2021-12-17 15:57:52,729 - root - INFO - BotServer started!
+2021-12-17 15:57:52,730 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 15:58:00,441 - root - INFO - Command Change Led State
+2021-12-17 15:58:00,577 - root - INFO - Command Get Led State
+2021-12-17 15:58:16,969 - root - INFO - Command Change Led State
+2021-12-17 15:58:17,122 - root - INFO - Command Get Led State
+2021-12-17 15:58:33,704 - root - INFO - Command Change Led State
+2021-12-17 15:58:33,801 - root - INFO - Command Get Led State
+2021-12-17 15:58:42,210 - root - INFO - Command Change Led State
+2021-12-17 15:58:42,350 - root - INFO - Command Get Led State
+2021-12-17 16:04:37,137 - root - INFO - BotServer started!
+2021-12-17 16:04:37,139 - apscheduler.scheduler - INFO - Scheduler started
