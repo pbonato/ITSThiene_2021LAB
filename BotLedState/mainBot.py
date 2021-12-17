@@ -29,38 +29,41 @@ def getJson(led, state):
     if 'green' in led:
         data={'mac': get_mac_address(), 'green':state}
     if 'blue' in led:
-        data={"mac": get_mac_address(), "blue":state}
+        data={"mac": get_mac_address(), 'blue':state}
     if 'all' in led:
-        data={"mac": get_mac_address(), 'red':state, 'green':state, "blue":state}
+        data={"mac": get_mac_address(), 'red':state, 'green':state, 'blue':state}
     
     #data['mac']=get_mac_address()
 
     return data
 
-def led(update:Update,context:CallbackContext):
-    logging.info("Command Change Led State")
-    
-    changeStatus=update.effective_message.text
-    
-    if 'on' in changeStatus: state=True
-    elif 'off' in changeStatus: state=False
-    else: 
-        state=''
-        context.bot.send_message(chat_id=update.effective_chat.id,text="Inserire /{led} on or /{led} off")
-    
-    if state==True or state==False:
-        data=getJson(changeStatus, state)
-        #print(data)
-        requests.post('http://46.105.235.75:3000/api/set/', json.dumps(data), headers={'content-type':'application/json'})
-        
-    getStatus(update,context)
-    
 def getStatus(update:Update,context:CallbackContext):
     logging.info("Command Get Led State")
 
     statusLed=requests.get(f"http://46.105.235.75:3000/api/get/{get_mac_address()}")
     json=statusLed.json()
     context.bot.send_message(chat_id=update.effective_chat.id,text=f"{emoji.emojize(':red_circle:', use_aliases=True) if json['red']==True else emoji.emojize(':black_circle:', use_aliases=True)}  RED\n{emoji.emojize(':green_circle:', use_aliases=True) if json['green']==True else emoji.emojize(':black_circle:', use_aliases=True)}  GREEN\n{emoji.emojize(':blue_circle:', use_aliases=True) if json['blue']==True else emoji.emojize(':black_circle:', use_aliases=True)}  BLUE\n\n{emoji.emojize(':computer:', use_aliases=True)}  {json['mac']}")
+
+def led(update:Update,context:CallbackContext):
+    logging.info("Command Change Led State")
+    
+    changeStatus=update.effective_message.text
+    if 'on' in changeStatus or 'off' in changeStatus:
+        if 'on' in changeStatus: state=True
+        elif 'off' in changeStatus: state=False
+        else: 
+            state=''
+        
+        if state==True or state==False:
+            data=getJson(changeStatus, state)
+            #print(data)
+            requests.post('http://46.105.235.75:3000/api/set/', json.dumps(data), headers={'content-type':'application/json'})
+            
+        getStatus(update,context)
+    else:
+        context.bot.send_message(chat_id=update.effective_chat.id,text="Opzioni:\n  /{comando} on\n  /{comando} off")
+
+    
 
 
 def calcel(update:Update,context:CallbackContext):

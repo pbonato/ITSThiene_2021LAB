@@ -408,3 +408,35 @@ TypeError: 'list' object is not callable
 2021-12-17 15:58:42,350 - root - INFO - Command Get Led State
 2021-12-17 16:04:37,137 - root - INFO - BotServer started!
 2021-12-17 16:04:37,139 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 16:10:17,191 - root - INFO - BotServer started!
+2021-12-17 16:10:17,212 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 16:10:28,284 - root - INFO - Command Change Led State
+2021-12-17 16:10:28,458 - root - INFO - Command Get Led State
+2021-12-17 16:10:56,246 - root - INFO - Command Change Led State
+2021-12-17 16:10:56,424 - root - INFO - Command Get Led State
+2021-12-17 16:11:01,249 - root - INFO - Command Change Led State
+2021-12-17 16:11:01,385 - root - INFO - Command Get Led State
+2021-12-17 16:11:54,640 - root - INFO - BotServer started!
+2021-12-17 16:11:54,642 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 16:12:00,982 - root - INFO - Command Change Led State
+2021-12-17 16:12:00,983 - root - INFO - Command Get Led State
+2021-12-17 16:12:07,536 - root - INFO - Command Change Led State
+2021-12-17 16:12:07,537 - root - INFO - Command Get Led State
+2021-12-17 16:14:40,194 - root - INFO - BotServer started!
+2021-12-17 16:14:40,196 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 16:14:50,189 - root - INFO - Command Change Led State
+2021-12-17 16:15:48,102 - root - INFO - BotServer started!
+2021-12-17 16:15:48,104 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 16:15:52,211 - root - INFO - Command Change Led State
+2021-12-17 16:16:04,209 - root - INFO - Command Get Led State
+2021-12-17 16:16:10,131 - root - INFO - Command Change Led State
+2021-12-17 16:16:39,306 - root - INFO - BotServer started!
+2021-12-17 16:16:39,308 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 16:16:45,644 - root - INFO - Command Change Led State
+2021-12-17 16:17:17,143 - root - INFO - BotServer started!
+2021-12-17 16:17:17,146 - apscheduler.scheduler - INFO - Scheduler started
+2021-12-17 16:17:22,192 - root - INFO - Command Change Led State
+2021-12-17 16:17:22,307 - root - INFO - Command Get Led State
+2021-12-17 16:17:26,399 - root - INFO - Command Change Led State
+2021-12-17 16:17:31,172 - root - INFO - Command Change Led State
+2021-12-17 16:17:31,303 - root - INFO - Command Get Led State
