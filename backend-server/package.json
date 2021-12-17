@@ -1,0 +1,28 @@
+{
+  "name": "megaserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yungfox/megaserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yungfox/megaserver/issues"
+  },
+  "homepage": "https://github.com/yungfox/megaserver#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
